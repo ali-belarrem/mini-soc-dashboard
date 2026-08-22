@@ -1,0 +1,7 @@
+Jul 20 10:12:01 server sshd[1023]: Accepted password for admin from 192.168.1.10 port 55321 ssh2
+Jul 20 10:13:45 server sshd[1024]: Failed password for admin from 45.155.204.12 port 55322 ssh2
+Jul 20 10:13:47 server sshd[1025]: Failed password for admin from 45.155.204.12 port 55323 ssh2
+Jul 20 10:13:49 server sshd[1026]: Failed password for admin from 45.155.204.12 port 55324 ssh2
+Jul 20 10:14:02 server sshd[1027]: Failed password for root from 45.155.204.12 port 55325 ssh2
+Jul 20 10:15:10 server sshd[1028]: Accepted password for user1 from 192.168.1.15 port 55330 ssh2
+Jul 20 10:16:33 server sshd[1029]: Failed password for admin from 89.248.165.74 port 55331 ssh2

@@ -41,7 +41,15 @@
     <div>
         <h2>Log Analyzer</h2>
         <p>Analyze server logs and detect brute-force attacks.</p>
-        <button>Run Analysis</button>
+        <a href="/analyze"><button>Run Analysis</button></a>
+
+        {% if suspicious_ips %}
+            <ul></ul>
+            {% for ip, count in suspicious_ips.items() %}
+                <li>[ALERT] {{ ip }} - {{ count }} failed attempts</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
     </div>
 
 </body>
